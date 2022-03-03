@@ -1,0 +1,35 @@
+.section-1{
+    background-color: black;
+    padding-left: 30px;
+    height: 100vh;
+}
+.logo{
+    color: white;
+}
+.items{
+    color: white;
+}
+.items ul li{
+    display: inline-block;
+    padding: 45px;
+}
+.section1-content h1{
+    color: white;
+    font-weight: bold;
+    font-size: 89px;
+
+}
+.section1-content p{
+    color: white;
+    font-size: 20px;
+}
+.section1-button{
+    background-color: rgb(226, 21, 21);
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    width: 14vw;
+    height: 7vh;
+
+}
