@@ -1,17 +1,26 @@
 .section-1{
-    background-color: black;
+    background-image:url("/images/2.png") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-left: 30px;
-    height: 100vh;
+    height: 120vh;
+    padding-top: 40px;
 }
-.logo{
-    color: white;
+.logo img{
+    height: 20vh;
+    width: 10vw; 
+
 }
 .items{
     color: white;
 }
 .items ul li{
     display: inline-block;
-    padding: 45px;
+    padding: 33px;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 .section1-content h1{
     color: white;
@@ -27,9 +36,42 @@
     background-color: rgb(226, 21, 21);
     color: white;
     text-align: center;
+    font-weight: bold;
     border: none;
     border-radius: 20px;
     width: 14vw;
     height: 7vh;
-
+}
+.section-2{
+    background-color: rgb(241, 230, 210);
+}
+.section2-heading{
+    padding-top: 50px;
+}
+.section2-heading h1{
+    text-align: center;
+    color: rgb(228, 30, 30);
+    font-weight: bold;
+}
+.section2-paragraph p{
+    text-align: center;
+    color: rgb(228, 30, 30);
+}
+.chef{
+    padding-left: 205px;
+    padding-top: 30px;
+}
+.our-chef img{
+    height: 28vh;
+    width: 12vw;
+    border-radius: 80px;
+}
+.our-chef h1{
+    color: rgb(228, 30, 30);
+    font-size: x-large;
+    font-weight: bold;
+}
+.our-chef p{
+    color: rgb(228, 30, 30);
+    
 }
