@@ -44,22 +44,25 @@
 }
 .section-2{
     background-color: rgb(241, 230, 210);
+    height: 120vh;
 }
-.section2-heading{
-    padding-top: 50px;
+.content-2{
+    margin-top: 70px;
+    margin-left: 274px;
 }
-.section2-heading h1{
+.content-2 h1{
     text-align: center;
     color: rgb(228, 30, 30);
     font-weight: bold;
+    font-size: 50px;
 }
-.section2-paragraph p{
+.content-2 p{
     text-align: center;
     color: rgb(228, 30, 30);
+    font-size: 18px;
 }
 .chef{
-    padding-left: 205px;
-    padding-top: 30px;
+    padding-left: 225px;
 }
 .our-chef img{
     height: 28vh;
@@ -74,4 +77,115 @@
 .our-chef p{
     color: rgb(228, 30, 30);
     
+}
+.section-3{
+    background-color: rgb(206, 26, 62);
+    height: 120vh;
+}
+.content-3{
+    margin-top: 100px;
+}
+.best-burger h1{
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+.best-burger p{
+    color: white;
+}
+.section-4{
+    background-color: rgb(175, 91, 108);
+    height: 120vh;
+}
+.content-4{
+    margin-top: 100px;
+}
+.big-burger h1{
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+.big-burger p{
+    color: white;
+}
+.section-6{
+    background-color: rgb(163, 156, 92);
+    height: 120vh;
+}
+.content-6{
+    margin-top: 250px;
+}
+.details p{
+    color: white;
+    padding-left: 350px;
+    font-size: 22px;
+    
+}
+.details h2{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 500px;
+    
+}
+.section-7{
+    background-color: rgb(223, 213, 213);
+    height: 120vh;
+}
+.content-7{
+    margin-top: 100px;
+}
+.update h1{
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 360px;
+}
+.update p{
+    color: red;
+    margin-left: 360px;
+}
+.section-8{
+    background-color: rgb(7, 7, 7);
+    height: 120vh;
+}
+.content-8{
+    margin-top: 200px;
+}
+.title h1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+.title p{
+    color: white;
+    margin-left: 60px;
+}
+.about{
+    margin-left: 103px;
+}
+.about h1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.about p{
+    color: white;
+}
+.services h1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold; 
+}
+.services p{
+    color: white;
+}
+.other h1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.other p{
+    color: white;
 }
