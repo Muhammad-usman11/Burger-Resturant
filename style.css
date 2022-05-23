@@ -79,11 +79,11 @@
     
 }
 .section-3{
-    background-color: rgb(206, 26, 62);
+    background-color: rgba(214, 15, 55, 0.992);
     height: 120vh;
 }
 .content-3{
-    margin-top: 100px;
+    margin-top: 180px;
 }
 .best-burger h1{
     color: white;
@@ -93,20 +93,55 @@
 .best-burger p{
     color: white;
 }
+.section3-button{
+    background-color: white;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    width: 14vw;
+    height: 7vh;
+}
+.section3-image img{
+    border-radius: 450px;
+    margin-left: 150px;
+    height: 66vh;
+    width: 30vw;
+}
 .section-4{
-    background-color: rgb(175, 91, 108);
+    background-color: rgb(234, 235, 157);
     height: 120vh;
 }
 .content-4{
-    margin-top: 100px;
+    margin-top: 180px;
+}
+.big-burger{
+    padding-left: 240px;
 }
 .big-burger h1{
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 45px;
 }
 .big-burger p{
+    color: black;
+}
+.section4-button{
+    background-color: black;
     color: white;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    width: 14vw;
+    height: 7vh;
+}
+.section4-image img{
+    border-radius: 450px;
+    margin-left: 80px;
+    height: 66vh;
+    width: 30vw;
 }
 .section-6{
     background-color: rgb(163, 156, 92);
@@ -129,21 +164,40 @@
     
 }
 .section-7{
-    background-color: rgb(223, 213, 213);
+    background-color: rgb(241, 230, 210);
     height: 120vh;
 }
 .content-7{
-    margin-top: 100px;
+    margin-top: 200px;
+}
+.update{
+    padding-left: 380px;
 }
 .update h1{
     color: red;
     font-weight: bold;
     font-size: 50px;
-    margin-left: 360px;
+    
 }
 .update p{
     color: red;
-    margin-left: 360px;
+    
+}
+.user-email input{
+    margin: 0px 0px 250px 369px;
+    width: 400px;
+}
+.subscribe button{
+    margin-left: 171px;
+    margin-top: 26px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    width: 9vw;
+    height: 6vh;
 }
 .section-8{
     background-color: rgb(7, 7, 7);
@@ -161,6 +215,15 @@
 .title p{
     color: white;
     margin-left: 60px;
+}
+.title img{
+    height: 30px;
+    width: 34px;
+    padding-left: 6px;
+    
+}
+.icon{
+    margin-left: 64px;
 }
 .about{
     margin-left: 103px;
