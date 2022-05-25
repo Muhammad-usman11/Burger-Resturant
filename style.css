@@ -43,7 +43,7 @@
     height: 7vh;
 }
 .section-2{
-    background-color: rgb(241, 230, 210);
+    background-color: rgb(245, 237, 223);
     height: 120vh;
 }
 .content-2{
@@ -64,6 +64,48 @@
 .chef{
     padding-left: 225px;
 }
+.fries{
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 733px;
+    left: 160px;
+}
+.garlic{
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 970px;
+    left: 10px;
+}
+.leave{
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 1230px;
+    left: 415px;
+}
+.mashroom{
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 1225px;
+    left: 750px;
+}
+.petti{
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 715px;
+    right: 50px;
+}
+.chilli{
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 970px;
+    right: 50px;
+}
 .our-chef img{
     height: 28vh;
     width: 12vw;
@@ -79,7 +121,7 @@
     
 }
 .section-3{
-    background-color: rgba(214, 15, 55, 0.992);
+    background-color: rgb(245, 75, 60); 
     height: 120vh;
 }
 .content-3{
@@ -110,7 +152,7 @@
     width: 30vw;
 }
 .section-4{
-    background-color: rgb(234, 235, 157);
+    background-color: rgb(245, 237, 223);
     height: 120vh;
 }
 .content-4{
@@ -120,22 +162,22 @@
     padding-left: 240px;
 }
 .big-burger h1{
-    color: black;
+    color: red;
     font-weight: bold;
     font-size: 45px;
 }
 .big-burger p{
-    color: black;
+    color: red;
 }
 .section4-button{
     background-color: black;
-    color: white;
+    color: rgb(245, 10, 10);
     text-align: center;
     font-weight: bold;
     border: none;
     border-radius: 20px;
     width: 14vw;
-    height: 7vh;
+    height: 7vh;   
 }
 .section4-image img{
     border-radius: 450px;
@@ -144,27 +186,29 @@
     width: 30vw;
 }
 .section-6{
-    background-color: rgb(163, 156, 92);
+    background-image: url("/images/berry.png") ;
+    background-size: cover;
     height: 120vh;
 }
 .content-6{
     margin-top: 250px;
 }
 .details p{
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     padding-left: 350px;
-    font-size: 22px;
+    font-size: 25px;
     
 }
 .details h2{
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
     padding-left: 500px;
     
 }
 .section-7{
-    background-color: rgb(241, 230, 210);
+    background-color: rgb(245, 237, 223);
     height: 120vh;
 }
 .content-7{
