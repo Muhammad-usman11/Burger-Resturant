@@ -7,6 +7,10 @@
     <title>Burger Resturant</title>
     <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
@@ -140,6 +144,59 @@
     </div>
     
     <!-- section 3 complete -->
+    <!-- slider section starts here   -->
+    <div class="slidersection">
+      
+        <div class="row">
+          <div class="col-md-12">
+            <div class="customslider">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="slidercard">
+                      <h1>Burger Deal 1</h1>
+                      <p></p>
+                      <img src="./images/slider1.jpg" alt="">
+                    </div>
+                    
+                    
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slidercard">
+                      <h1>Burger Deal 2</h1>
+                      <p></p>
+                      <img src="./images/slider2.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slidercard">
+                      <h1>Burger Deal 3</h1>
+                      <p></p>
+                      <img src="./images/slider3.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slidercard">
+                      <h1>Burger Deal 4</h1>
+                      <p></p>
+                      <img src="./images/slider4.jpg" alt="">
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+
+
+
+    <!-- .......................................... -->
     <div class="section-4">
       <div class="wrapper">
         <div class="row content-4">
@@ -167,7 +224,46 @@
       
     </div>
     
-    <!-- section 4 complete -->
+    
+
+    <!-- section 5 is start here  -->
+    <div class="section5">
+      <div class="wrapper">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="dealcard">
+              <h1>Petty Burger</h1>
+              <img src="./images/pettyBur.jpg" alt="">
+              <h3>Price : 2$</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <button>Order Now</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="dealcard">
+              <h1>Grill Burger</h1>
+              <img src="./images/grillBur.jpg" alt="">
+              <h3>Price : 5$</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <button>Order Now</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="dealcard">
+              <h1>Zinger Burger</h1>
+              <img src="./images/zingerBur.jpg" alt="">
+              <h3>Price : 4$</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <button>Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- section 6 is start here   -->
     <div class="section-6">
       <div class="wrapper">
         <div class="row content-6">
@@ -203,15 +299,9 @@
               </p>
             </div>
             
-            <div class="user-email">
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label"></label>
-                  <input placeholder="Your Email" type="email" class="form-control subscribe" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text"></div>
-                </div>
-                
-              </form>
+            <div class="useremail">
+              <input type="text" placeholder="Enter your name"> <br>
+              <input type="email" placeholder="Enter your E-mail" >
               
             </div>
             <div class="subscribe">
@@ -257,10 +347,13 @@
               alias consectetur fugit? Delectus illo corrupti beatae dolorum
               accusamus nobis eius. Perferendis, quibusdam.
             </p> 
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-brands fa-square-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
+            <div class="mediaicons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa-brands fa-square-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            
           </div>
           <div class="col-md-2 about">
             <h1>About</h1>
@@ -295,6 +388,28 @@
         
       
     </div>
+    <!-- swiper slider js  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+
     
   </body>
 </html>
